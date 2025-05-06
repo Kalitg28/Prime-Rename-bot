@@ -33,15 +33,15 @@ async def start(client, message):
     
     button = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Prime_botz"),
-            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/Prime_botz_Support")
+            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Indian_MV"),
+            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/Indian_MV_Group")
         ],
         [
             InlineKeyboardButton("🛠️ Help 🛠️", callback_data='help'),
             InlineKeyboardButton("❤️‍🩹 About ❤️‍🩹", callback_data='about')
         ],
         [
-            InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://telegram.me/Prime_Nayem")
+            InlineKeyboardButton("💸 Upgrade To Premium 💸", callback_data="upgrade"")
         ],        
     ])
     
