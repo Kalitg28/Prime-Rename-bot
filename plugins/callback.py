@@ -21,7 +21,7 @@ async def about(bot,update):
 async def donatecm(bot,message):
     text = script.DONATE_TXT
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin",url = "https://telegram.me/Prime_Nayem"),
+        [InlineKeyboardButton("🦋 Admin",url = "https://telegram.me/Indian_MV_Admin_Bot"),
         InlineKeyboardButton("✖️ Close",callback_data = "cancel") ]])
     await message.reply_text(text = text,reply_markup = keybord)    
 
@@ -78,10 +78,10 @@ async def donate(bot,update):
 async def home_callback_handler(bot, query):
     text = f"""{query.from_user.mention} \n<b>ɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ.\n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!\n\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a></blockquote></b>"""
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/Prime_Botz"),
-                    InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://telegram.me/Prime_Botz_Support")],
+                    [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Indian_MV"),
+                    InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/Indian_MV_Group")],
                     [InlineKeyboardButton("🛠️ Help 🛠️", callback_data='help'),
 		            InlineKeyboardButton("❤️‍🩹 About ❤️‍🩹", callback_data='about')],
-                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://telegram.me/Prime_Nayem")]
+                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://telegram.me/Indian_MV_Admin_Bot")]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
