@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("❤️‍🩹 About ❤️‍🩹", callback_data='about')
         ],
         [
-            InlineKeyboardButton("💸 Upgrade To Premium 💸", callback_data="upgrade"")
+            InlineKeyboardButton("💸 Upgrade To Premium 💸", callback_data="upgrade")
         ],        
     ])
     
